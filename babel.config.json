@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ],
+  "ignore": [
+    "**/*.test.js",
+    "**/node_modules/**/*.js",
+    "**/node_modules/**/*.mjs"
+  ],
+  "parserOpts": {
+    "allowReturnOutsideFunction": true
+  }
+}
